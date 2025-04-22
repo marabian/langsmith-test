@@ -1,0 +1,12 @@
+[project]
+name = "langsmith-test" # Replace with your actual package name (use hyphens)
+version = "0.1.0"          # Or your project's version
+requires-python = ">=3.11" # Specify the minimum Python version your code needs
+dependencies = [
+    "langsmith>=0.3.33",
+    "openai>=1.75.0",
+    "python-dotenv>=1.1.0"
+    # List your direct dependencies here, one string per line, e.g.:
+    # "requests",
+    # "pydantic>=2.0",
+]
